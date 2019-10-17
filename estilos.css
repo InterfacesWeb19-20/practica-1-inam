@@ -4,8 +4,8 @@ footer
 	border-top-color:1px solid rgba(255,255,255,.5);
 	margin-top:10px;
 	background-color:#047dc8;
-	padding:50px;
-	width:94.8%;
+	padding:2px;
+	width:100%;
 	text-align:center;
 	clear:both;
 	margin-bottom:0px;
@@ -23,7 +23,9 @@ img#logotipo
 }
 .pfooter
 {
-	margin-left:15px;
+	color:black;
+	font-size:20px;
+	margin-left:109px;
 }
 #uni
 {
@@ -73,4 +75,16 @@ iframe
 	height:180px;
 	float:left;
 	margin-left:20px;
+}
+hr
+{
+	width:30%;
+	height:4%;
+}
+.imgfooter
+{
+	width:2.5%;
+	height:2.5%;
+	text-align:center;
+	margin:5px;
 }
