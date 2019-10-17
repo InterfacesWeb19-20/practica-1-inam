@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 html {
 	height: 100%;
 	width: 100%;
@@ -72,6 +73,81 @@ nav ul{
     padding: 0;
     position: static;
     text-align: center;
+=======
+/* Adrian */
+header {
+    width: 100%;
+    height: 120px;
+}
+body
+{
+    width: 100%;
+    height: 100%;
+	margin:0;
+}
+
+nav {
+    width: 100%;
+    height: 118px;
+
+}
+section {
+    width: 100%;
+    height: 350px;
+
+}
+.cab { 
+    background-image: url("imagenes/Fondo_header.jpg");
+    background-size: 100%, 50%;
+    width: 100%;
+    height: 140px;
+    position: fixed;
+    top:0;
+    right:0;
+    margin-left: 150px;
+}
+#en {
+    margin-right: 126px;
+    text-align: center;
+    line-height: 50%;
+    color:rgb(3, 6, 100);
+}
+#diw {
+    width:162px;
+    height:140px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+#esp {
+    float: right;
+    width:126px;
+    height: 61px;
+}
+#icoIdiomas {
+    width: 25px;
+    height: 25px;
+}
+p {
+    float: right;
+    font-family: "Arial Black";
+}
+/* Isvaku */
+nav{
+    background:#023859;
+    z-index:1000;
+    width: 100%;
+    top:140px;
+    height: 15%;
+    margin:20px auto;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav ul{
+    text-align: center;
+    list-style:none;
+>>>>>>> Añadido la combinacion
 }
 
 nav ul li{
@@ -84,6 +160,10 @@ nav ul li:hover{
 }
 
 nav ul li a{
+<<<<<<< HEAD
+=======
+
+>>>>>>> Añadido la combinacion
     color:#fff;
     display:block;
     text-decoration: none;
@@ -94,15 +174,26 @@ nav ul li:hover .children{
     display:block;
 }
 
+<<<<<<< HEAD
 nav ul li ul{
+=======
+nav ul li .children{
+>>>>>>> Añadido la combinacion
     display:none;
     background:#011826;
     position:absolute;
     width:150%;
+<<<<<<< HEAD
+=======
+    z-index:1000;
+    text-align: center;
+
+>>>>>>> Añadido la combinacion
 }
 
 #largos{
     width:400%;
+<<<<<<< HEAD
 } 
 nav ul li .children li{
     display:block;
@@ -138,6 +229,29 @@ img#logotipo
 
 
 =======
+=======
+}
+
+#cortos{
+    width:75%;
+}
+
+nav ul li .children li{
+    display:block;
+    overflow:hidden;
+    border-bottom:1px solid rgba(255,255,255,.5)
+
+}
+
+nav ul li .children li a{
+    display:block;
+}
+
+ #ciclo{
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* Natan */
+>>>>>>> Añadido la combinacion
 footer
 {
 	border-top-style:inset;
@@ -145,15 +259,10 @@ footer
 	margin-top:10px;
 	background-color:#047dc8;
 	padding:2px;
-	width:100%;
+    width:100%;
+    height: 20%;
 	text-align:center;
 	clear:both;
-	margin-bottom:0px;
-	margin-left:0em;
-}
-body
-{
-	margin:0;
 }
 img#logotipo
 {
