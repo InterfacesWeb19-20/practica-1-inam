@@ -46,8 +46,7 @@ body
 }
 /* Isvaku */
 nav{
-    background:#023859;
-    z-index:1000;
+    background:#023859;    
     width: 100%;
     top:140px;
     height: 15%;
@@ -86,9 +85,7 @@ nav ul li .children{
     background:#011826;
     position:absolute;
     width:150%;
-    z-index:1000;
     text-align: center;
-
 }
 
 #largos{
@@ -111,7 +108,32 @@ nav ul li .children li a{
 }
 
  #ciclo{
+     padding:10px;
+     text-align:center;
+     
+     
     font-family:Arial, Helvetica, sans-serif;
+    
+}
+#ciclo p{
+    text-align:left;
+    padding:1px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#ciclo ul{
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#ciclo li{
+    font-style:bold;
+   font-weight:bold;
+   font-family:Arial, Helvetica, sans-serif;
+}
+#ciclo h2{
+    border-bottom:1px solid black; 
+}
+#ciclo h3{
+    border-bottom:1px dashed black;
 }
 /* Natan */
 footer
